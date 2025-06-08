@@ -1,0 +1,78 @@
+# .gitignore for C# projects
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Visual Studio
+*.vs/
+*.vscode/
+*.sln.ide/
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+# Packages folder can be ignored if using PackageReference
+packages/
+# NuGet v3's project.json files produces this folder
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.temp
+*.cache
+*.pid
+*.swp
+*.swn
+*.swo
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Local configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+# Publish
+publish/
+out/
